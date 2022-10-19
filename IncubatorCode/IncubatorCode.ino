@@ -21,12 +21,13 @@ void loop() {
   }
 
   delay(3600000);
+}
 
 void coilA(){
   digitalWrite(LED_BUILTIN, HIGH);
   digitalWrite(7, HIGH);
   Serial.println("LED-On-A");
-  delay(2000);
+  delay(1000);
   digitalWrite(LED_BUILTIN, LOW);
   Serial.println("LED-Off-A");
   digitalWrite(7, LOW);
@@ -37,7 +38,7 @@ void coilB(){
   digitalWrite(LED_BUILTIN, HIGH);
   digitalWrite(8, HIGH);
   Serial.println("LED-On-B");
-  delay(2000);
+  delay(1000);
   digitalWrite(LED_BUILTIN, LOW);
   digitalWrite(8, LOW);
   Serial.println("LED-Off-B");
