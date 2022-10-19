@@ -1,3 +1,3 @@
-# Hardware_code
-Thesis_Hardware codes
-#This File is intended for making a thesis
+## Hardware_code
+> THIS REPOSITORY COMPILES ALL THE ACTIVITIES
+> THAT IS USED IN THE HARDWARE DEVELOPMENT
